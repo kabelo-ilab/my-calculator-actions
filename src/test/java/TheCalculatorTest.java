@@ -18,7 +18,7 @@ public class TheCalculatorTest extends TheCalculator {
     @Test
     public void testTestCalcSum() {
         double actualSum = calcSum(5,6);
-        assertEquals(actualSum,12);
+        assertEquals(actualSum,11);
     }
 
     @Test
