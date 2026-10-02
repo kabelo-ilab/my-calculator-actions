@@ -1,0 +1,32 @@
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import static org.testng.Assert.*;
+
+public class TheCalculatorTest extends TheCalculator {
+
+    @BeforeMethod
+    public void setUp() {
+    }
+
+    @AfterMethod
+    public void tearDown() {
+    }
+
+    @Test
+    public void testTestCalcSum() {
+    }
+
+    @Test
+    public void testTestSubtract() {
+    }
+
+    @Test
+    public void testTestMultiply() {
+    }
+
+    @Test
+    public void testTestDivide() {
+    }
+}
